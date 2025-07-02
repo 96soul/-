@@ -4,4 +4,6 @@ until game:IsLoaded() and game:GetService("Players") and game:GetService("Player
 
 if game.PlaceId == 126884695634066 then
 	loadstring(game:HttpGet("https://github.com/96soul/Utilities/blob/main/GrowAGarden/GAG?raw=true", true))()
+elseif game.PlaceId == 126509999114328 then
+	loadstring(game:HttpGet("https://github.com/96soul/Utilities/blob/main/99night/main?raw=true", true))()
 end
