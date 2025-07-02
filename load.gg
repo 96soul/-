@@ -1,4 +1,7 @@
-if not game:IsLoaded() then game:IsLoaded():Wait() end
+repeat 
+	task.wait()
+until game:IsLoaded() and game:GetService("Players") and game:GetService("Players").LocalPlayer
+
 if game.PlaceId == 126884695634066 then
 	loadstring(game:HttpGet("https://github.com/96soul/Utilities/blob/main/GrowAGarden/GAG?raw=true", true))()
 end
